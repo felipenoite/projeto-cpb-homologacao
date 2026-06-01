@@ -1,0 +1,5 @@
+{
+  "paralimpicas": ["Atletismo", "Natação", "Bocha", "Goalball", "Judô", "Halterofilismo", "Ciclismo"],
+  "deaflimpicas": ["Futebol", "Basquete", "Vôlei"],
+  "minimo": ["Atletismo"]
+}

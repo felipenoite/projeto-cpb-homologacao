@@ -1,0 +1,16 @@
+{
+  "nomeClube": "Clube Esportivo Paralímpico Teste",
+  "cnpj": "11222333000181",
+  "emailClube": "contato@clubeteste.org.br",
+  "telefone": "(11) 3456-7890",
+  "nomeRepresentante": "João da Silva Santos",
+  "cpf": "52998224725",
+  "emailRepresentante": "joao.santos@clubeteste.org.br",
+  "cep": "01310100",
+  "logradouro": "Avenida Paulista",
+  "numero": "1578",
+  "complemento": "Sala 12",
+  "bairro": "Bela Vista",
+  "cidade": "São Paulo",
+  "estado": "SP"
+}
