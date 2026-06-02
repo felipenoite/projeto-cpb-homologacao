@@ -142,10 +142,12 @@ cypress/
 Ver [bugs-e-melhorias.md](bugs-e-melhorias.md) para lista completa. Principais achados:
 
 - **BUG-001 (P1):** CNPJ `00000000000000` retorna "já cadastrado" em vez de erro de validação
-- **BUG-002 (P2):** Campos de endereço sem validação de formato ou obrigatoriedade
-- **BUG-003 (P2):** Campo CEP não valida formato nem comprimento
+- **BUG-002 (P2):** Validações incorretas nos campos de endereço — CEP aceita menos de 8 dígitos, Logradouro e Número aceitam qualquer caractere sem restrição, Bairro aceita números
+- **BUG-003 (P2):** Campos "Nome Completo" aceitam qualquer caractere sem restrição (Presidência e Diretor)
+- **BUG-004 (P2):** Campos de Email sem validação de formato em todas as seções (Clube, Presidência e Diretor) — qualquer string com `@` é aceita
 - **MELHORIA-001:** Integração com ViaCEP para preenchimento automático de endereço
-- **MELHORIA-002/003:** Validação client-side de CNPJ e CPF (algoritmo Módulo 11)
+- **MELHORIA-002:** Suporte a CNPJ Alfanumérico (já em vigor no Brasil)
+- **MELHORIA-003/004:** Padronização de campos de Nome e validação completa de e-mail
 
 ---
 
